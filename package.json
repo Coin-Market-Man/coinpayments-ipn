@@ -1,6 +1,6 @@
 {
-  "name": "coinpayments-ipn",
-  "version": "1.0.0",
+  "name": "@coin-market-man/coinpayments-ipn",
+  "version": "1.1.0",
   "description": "Coinpayments Instant Payment Notification processor.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -30,7 +30,7 @@
   "report-coverage": "codecov",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OrahKokos/coinpayments-ipn.git"
+    "url": "git+https://github.com/Coin-Market-Man/coinpayments-ipn.git"
   },
   "author": "Marko Paroški",
   "license": "ISC",
