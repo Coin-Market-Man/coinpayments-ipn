@@ -7,6 +7,4 @@ export const isObject = (input: unknown): input is Record<PropertyKey, unknown> 
 export const hasProperty =
   <T extends Record<PropertyKey, unknown>>(input: T) =>
   (key: keyof T) =>
-    // eslint-disable-next-line no-prototype-builtins
-    input.hasOwnProperty(key)
-// Object.hasOwn(input, key)
+    Object.hasOwn(input, key)
