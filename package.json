@@ -1,6 +1,6 @@
 {
   "name": "@coin-market-man/coinpayments-ipn",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Coinpayments Instant Payment Notification processor.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/OrahKokos/coinpayments-ipn/issues"
   },
-  "homepage": "https://github.com/OrahKokos/coinpayments-ipn#readme"
+  "homepage": "https://github.com/OrahKokos/coinpayments-ipn#readme",
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+    }
 }
